@@ -24,7 +24,11 @@ public class TestNgDemoShop {
     public void openChromeTest() {
         System.out.println("Browser opens!");
     }
-
+    @Test
+    public void findElementsByTagName() {
+        WebElement element = driver.findElement(By.name("q"));
+        System.out.println(element.getText());
+    }
     @Test
     public void findElementById(){
         driver.findElement(By.id("bar-notification"));

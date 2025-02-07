@@ -61,7 +61,6 @@ public class FirstSeleniumTest {
         WebElement element1 = driver.findElement(By.className("navigation-link"));
         System.out.println(element1.getText());
     }
-
     @AfterMethod()
 
     public void tearDown() {

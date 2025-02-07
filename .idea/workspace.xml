@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b8844a-9df2-410a-91ea-722c4d889090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ait/Home/Work/TestNgDemoShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ait/tests/FirstSeleniumTest.java" afterDir="false" />
+    <list default="true" id="39b8844a-9df2-410a-91ea-722c4d889090" name="Changes" comment="Add new commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ait/Home/Work/TestNgDemoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ait/Home/Work/TestNgDemoShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ait/tests/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ait/tests/FirstSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -58,6 +49,7 @@
     "TestNG.FirstSeleniumTest.findElementById.executor": "Run",
     "TestNG.FirstSeleniumTest.findElementsByTagName.executor": "Run",
     "TestNG.FirstSeleniumTest.openChromeTest.executor": "Run",
+    "TestNG.TestNgDemoShop.executor": "Run",
     "TestNG.TestNgDemoShop.findElementByClassName.executor": "Run",
     "TestNG.TestNgDemoShop.findElementById.executor": "Run",
     "TestNG.TestNgDemoShop.findElementsByTagName.executor": "Run",
@@ -70,8 +62,8 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestNgDemoShop">
-    <configuration name="FirstSeleniumTest.findElementByClassName" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNgDemoShop.findElementsByTagName">
+    <configuration name="FirstSeleniumTest.findElementsByTagName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA45_FirstSeleniumProject.test" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +73,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ait.tests" />
       <option name="MAIN_CLASS_NAME" value="com.ait.tests.FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="findElementByClassName" />
+      <option name="METHOD_NAME" value="findElementsByTagName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNgDemoShop.findElementsByTagName" />
+        <item itemvalue="TestNG.FirstSeleniumTest.findElementsByTagName" />
         <item itemvalue="TestNG.TestNgDemoShop" />
         <item itemvalue="TestNG.TestNgDemoShop.findElementByClassName" />
         <item itemvalue="TestNG.TestNgDemoShop.findElementById" />
-        <item itemvalue="TestNG.TestNgDemoShop.findElementsByTagName" />
-        <item itemvalue="TestNG.FirstSeleniumTest.findElementByClassName" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +171,57 @@
       <option name="presentableId" value="Default" />
       <updated>1738700256800</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add new commit">
+      <option name="closed" value="true" />
+      <created>1738947761883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738947761884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new commit" />
   </component>
 </project>
