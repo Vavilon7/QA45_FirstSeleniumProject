@@ -50,6 +50,27 @@ public class TestNgDemoShop {
         WebElement element1 = driver.findElement(By.className("footer"));
         System.out.println(element1.getText());
     }
+    @Test
+    public void findElementByCssSelector(){
+
+        //id -> css - #
+        driver.findElement(By.cssSelector("#flyout-cart"));
+
+        //className ->css-.
+        driver.findElement(By.cssSelector(".header-links-wrapper"));
+
+        //[key='value']
+        driver.findElement(By.cssSelector("[type='button']"));
+        driver.findElement(By.cssSelector("[href='/search']"));
+        driver.findElement(By.cssSelector("[for='pollanswers-1']"));
+
+        //contains ->*
+        driver.findElement(By.cssSelector("[href*='build']"));
+
+        //start with ->^
+        driver.findElement(By.cssSelector("[href^='/electronics']"));
+
+    }
 
     @AfterMethod()
 
