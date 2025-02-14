@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b8844a-9df2-410a-91ea-722c4d889090" name="Changes" comment="Add new commit">
+    <list default="true" id="39b8844a-9df2-410a-91ea-722c4d889090" name="Changes" comment="Add commit №2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ait/tests/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ait/Home/Work/TestNgDemoShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ait/Home/Work/TestNgDemoShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ait/tests/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ait/tests/FirstSeleniumTest.java" afterDir="false" />
@@ -30,9 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2saibtdIpqIHjbK72Zlhl4r7wun" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -46,23 +48,49 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.FirstSeleniumTest.executor": "Run",
     "TestNG.FirstSeleniumTest.findElementByClassName.executor": "Run",
+    "TestNG.FirstSeleniumTest.findElementByCssSelector.executor": "Run",
     "TestNG.FirstSeleniumTest.findElementById.executor": "Run",
+    "TestNG.FirstSeleniumTest.findElementByLinkText.executor": "Run",
+    "TestNG.FirstSeleniumTest.findElementByXpath.executor": "Run",
     "TestNG.FirstSeleniumTest.findElementsByTagName.executor": "Run",
     "TestNG.FirstSeleniumTest.openChromeTest.executor": "Run",
+    "TestNG.TableTest.findTableElementWithCss.executor": "Run",
     "TestNG.TestNgDemoShop.executor": "Run",
     "TestNG.TestNgDemoShop.findElementByClassName.executor": "Run",
+    "TestNG.TestNgDemoShop.findElementByCssSelector.executor": "Run",
     "TestNG.TestNgDemoShop.findElementById.executor": "Run",
+    "TestNG.TestNgDemoShop.findElementByXpath.executor": "Run",
     "TestNG.TestNgDemoShop.findElementsByTagName.executor": "Run",
-    "com.google.cloudcode.ide_session_index": "20250204_0000",
+    "TestNG.TestNgDemoShop.findTableElementWithCss.executor": "Run",
+    "com.google.cloudcode.ide_session_index": "20250214_0000",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Tools/gradle-8.10",
+    "last_opened_file_path": "C:/Developmend/cohort42.2_QA — копия",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestNgDemoShop.findElementsByTagName">
+  <component name="RunManager" selected="TestNG.TestNgDemoShop.findElementByXpath">
+    <configuration name="FirstSeleniumTest.findElementByXpath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA45_FirstSeleniumProject.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ait.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ait.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ait.tests.FirstSeleniumTest" />
+      <option name="METHOD_NAME" value="findElementByXpath" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstSeleniumTest.findElementsByTagName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA45_FirstSeleniumProject.test" />
       <extension name="coverage">
@@ -81,34 +109,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDemoShop" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TableTest.findTableElementWithCss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA45_FirstSeleniumProject.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ait.Home.Work.*" />
+          <option name="PATTERN" value="com.ait.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ait.Home.Work" />
-      <option name="MAIN_CLASS_NAME" value="com.ait.Home.Work.TestNgDemoShop" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNgDemoShop.findElementByClassName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA45_FirstSeleniumProject.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ait.Home.Work.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ait.Home.Work" />
-      <option name="MAIN_CLASS_NAME" value="com.ait.Home.Work.TestNgDemoShop" />
-      <option name="METHOD_NAME" value="findElementByClassName" />
+      <option name="PACKAGE_NAME" value="com.ait.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.ait.tests.TableTest" />
+      <option name="METHOD_NAME" value="findTableElementWithCss" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDemoShop.findElementById" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgDemoShop.findElementByXpath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA45_FirstSeleniumProject.test" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +137,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ait.Home.Work" />
       <option name="MAIN_CLASS_NAME" value="com.ait.Home.Work.TestNgDemoShop" />
-      <option name="METHOD_NAME" value="findElementById" />
+      <option name="METHOD_NAME" value="findElementByXpath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,7 +145,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNgDemoShop.findElementsByTagName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNgDemoShop.findTableElementWithCss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA45_FirstSeleniumProject.test" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +155,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ait.Home.Work" />
       <option name="MAIN_CLASS_NAME" value="com.ait.Home.Work.TestNgDemoShop" />
-      <option name="METHOD_NAME" value="findElementsByTagName" />
+      <option name="METHOD_NAME" value="findTableElementWithCss" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -154,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNgDemoShop.findElementsByTagName" />
+        <item itemvalue="TestNG.TestNgDemoShop.findElementByXpath" />
+        <item itemvalue="TestNG.TestNgDemoShop.findTableElementWithCss" />
+        <item itemvalue="TestNG.TableTest.findTableElementWithCss" />
         <item itemvalue="TestNG.FirstSeleniumTest.findElementsByTagName" />
-        <item itemvalue="TestNG.TestNgDemoShop" />
-        <item itemvalue="TestNG.TestNgDemoShop.findElementByClassName" />
-        <item itemvalue="TestNG.TestNgDemoShop.findElementById" />
+        <item itemvalue="TestNG.FirstSeleniumTest.findElementByXpath" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738947761884</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add new commit">
+      <option name="closed" value="true" />
+      <created>1738950032720</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738950032720</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add commit №2">
+      <option name="closed" value="true" />
+      <created>1739388588676</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739388588676</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +235,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -222,6 +249,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new commit" />
+    <MESSAGE value="Add commit №2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add commit №2" />
   </component>
 </project>

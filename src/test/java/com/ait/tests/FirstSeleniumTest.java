@@ -45,13 +45,14 @@ public class FirstSeleniumTest {
     }
 
     @Test
-    public void findElementById(){
+    public void findElementById() {
         driver.findElement(By.id("city"));
         driver.findElement(By.id("dates"));
 
     }
+
     @Test
-    public void findElementByClassName(){
+    public void findElementByClassName() {
         WebElement element = driver.findElement(By.className("header"));
         System.out.println(element.getText());
 
@@ -61,6 +62,82 @@ public class FirstSeleniumTest {
         WebElement element1 = driver.findElement(By.className("navigation-link"));
         System.out.println(element1.getText());
     }
+
+    @Test
+    public void findElementByLinkText() {
+        WebElement linkText = driver.findElement(By.linkText("Let the car work"));
+        System.out.println(linkText.getText());
+
+        System.out.println("*************************************************");
+
+        WebElement linkText1 = driver.findElement(By.linkText("Terms of use"));
+        System.out.println(linkText1.getText());
+
+        WebElement partialLinkText = driver.findElement(By.partialLinkText("Let the car work"));
+        System.out.println(partialLinkText.getText());
+    }
+
+    @Test
+    public void findElementByCssSelector() {
+        //tagName->css
+        //driver.findElement(By.tagName"h1"));
+        driver.findElement(By.cssSelector("h1"));
+
+        //id -> css - #
+        driver.findElement(By.cssSelector("#city"));
+
+        //className ->css-.
+        driver.findElement(By.cssSelector(".header"));
+
+        //[key='value']
+        driver.findElement(By.cssSelector("[type='submit']"));
+        driver.findElement(By.cssSelector("[href='/search']"));
+        driver.findElement(By.cssSelector("[for='dates']"));
+
+        //contains ->*
+        driver.findElement(By.cssSelector("[href*='results?']"));
+        //start with ->^
+        driver.findElement(By.cssSelector("[href^='/let']"));
+        //end on ->$
+        driver.findElement(By.cssSelector("[href$='Tokyo']"));
+
+    }
+
+    @Test
+    public void findElementByXpath() {
+        // xpath -> //*[@key='value']
+        //driver.findElement(By.cssSelector("h1"));
+        driver.findElement(By.xpath("//h1"));
+        driver.findElement(By.xpath("//*[@id='city']"));
+        driver.findElement(By.xpath("//*[@class='header']"));
+        driver.findElement(By.xpath("//*[@type='submit']"));
+        driver.findElement(By.xpath("//*[@href='/search']"));
+        driver.findElement(By.xpath("//*[@for='dates']"));
+        //contains text
+        driver.findElement(By.xpath("//*[contains(.,'Find your')]"));
+
+        //equals
+        driver.findElement(By.xpath("//*[text()='Find your car now!']"));
+        driver.findElement(By.xpath("//*[.='Find your car now!']"));
+
+        //contains
+        driver.findElement(By.xpath("//*contains(@href,'results?')]"));
+
+        //start with
+        driver.findElement(By.xpath("//*[starts-with(@href,'/let')]"));
+
+        //parent
+        driver.findElement(By.xpath("//h1/.."));
+        driver.findElement(By.xpath("//h1/parent::*"));
+        driver.findElement(By.xpath("//h1/parent::div"));
+
+        //ancestor
+        driver.findElement(By.xpath("//h1/ancestor::*")); //first ancestor
+        driver.findElement(By.xpath("//h1/ancestor::div"));//two steps below
+        driver.findElement(By.xpath("//h1/ancestor::div[1]"));//one steps below
+
+    }
+
     @AfterMethod()
 
     public void tearDown() {
